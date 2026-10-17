@@ -1,0 +1,24 @@
+# ESP-IDF / build artifacts
+build/
+sdkconfig
+sdkconfig.old
+sdkconfig.defaults.old
+dependencies.lock
+managed_components/
+.flash_project_args
+*/build/
+*.o
+*.elf
+*.bin
+*.map
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Local secrets (never commit tokens / credentials)
+*.token
+.env
+secrets.*

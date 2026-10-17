@@ -1,0 +1,5 @@
+dependencies:
+  espressif/arduino-esp32:
+    version: ">=3.0.0"
+  m5stack/M5Cardputer:
+    version: ">=1.0.0"
